@@ -26,7 +26,7 @@ function MostrarValor () {
     const valor = document.getElementById("valor");
     const fondo = document.getElementById("fondo");
 
-    if (DiaDelProgramador() == 251) {
+    if (DiaDelProgramador() == 256) {
         valor.style.color = "#0f0";
         valor.textContent = DiaDelProgramador();
         fondo.style.backgroundColor = "#000";
