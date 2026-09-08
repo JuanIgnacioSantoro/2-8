@@ -16,7 +16,7 @@ function DiaDelProgramador(fecha = new Date()) {
     }
     else {
         // De lo contrario devuelve el día actual del año.
-        return diaDelAno.toString();
+        return diaDelAno;
     }
   }
   
@@ -24,7 +24,16 @@ console.log(DiaDelProgramador)
 
 function MostrarValor () {
     const valor = document.getElementById("valor");
-    valor.textContent = DiaDelProgramador();
+    const fondo = document.getElementById("fondo");
+
+    if (DiaDelProgramador() == 251) {
+        valor.style.color = "#0f0";
+        valor.textContent = DiaDelProgramador();
+        fondo.style.backgroundColor = "#000";
+    }
+    else  {
+        valor.textContent = DiaDelProgramador();
+    }
 }
 
 MostrarValor()

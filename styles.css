@@ -1,0 +1,14 @@
+h1 {
+    color: rgb(255, 0, 0);
+}
+
+div {
+    width: 98vw;
+    height: 69vh;
+    text-align: center;
+    margin-top: 30vh;
+    font-size: 10vh;
+}
+body {
+    background-color: antiquewhite;
+}
