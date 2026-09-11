@@ -19,8 +19,6 @@ function DiaDelProgramador(fecha = new Date()) {
         return diaDelAno;
     }
   }
-  
-console.log(DiaDelProgramador)
 
 function MostrarValor () {
     const valor = document.getElementById("valor");
